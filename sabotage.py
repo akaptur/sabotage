@@ -31,7 +31,7 @@ class Tracer(object):
             linenum = frame.f_lineno
             linetext = linecache.getline(self.program, linenum)
             vprint( 'line', linenum, linetext )
-        
+
             is_assignment = "=" in linetext and "==" not in linetext
 
             if is_assignment:

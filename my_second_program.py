@@ -1,8 +1,9 @@
+import sabotage
+sabotage.assignment(__file__)
+
 def greet():
     name = raw_input("Enter your name: ")
     print "hello,", name
-    
-    name_copy = name
     
     print "goodbye, ", name
 
